@@ -1,0 +1,133 @@
+html,
+body {
+  font-family: sans-serif;
+}
+
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+header {
+  background-color: #7375ff;
+}
+
+header .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header .container .logo {
+  margin-top: 10px;
+}
+
+header .container .logo p {
+  font-size: 15px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: auto;
+}
+
+header .container .logo img {
+  width: 80px;
+}
+
+header .container nav ul {
+  list-style-type: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+header .container nav ul li {
+  margin-left: 20px;
+}
+
+header .container nav ul li a {
+  text-decoration: none;
+}
+
+.name-project {
+  background-color: bisque;
+  margin: auto;
+  padding: 20px 0px;
+}
+
+.name-project h1 {
+  color: #0262b1;
+  margin: auto;
+  text-align: center;
+  font-weight: normal;
+  font-size: 35px;
+  position: relative;
+  border-radius: 5px;
+}
+
+.upload_part {
+  margin: auto;
+  text-align: center;
+}
+
+.upload_part p {
+  color: navy;
+}
+
+.upload_part .show-image img {
+  width: 250px;
+}
+
+.upload_button {
+  background-color: #ce2828;
+  color: black;
+  margin-top: 20px;
+  padding: 15px 10px;
+  font-size: 16px;
+  border: 0px;
+  border-radius: 5px;
+  -webkit-box-shadow: 6px 8px 18px -5px rgba(0, 0, 0, 0.38);
+  box-shadow: 6px 8px 18px -5px rgba(0, 0, 0, 0.38);
+  cursor: pointer;
+}
+
+footer {
+  background-color: #7375ff;
+}
+
+footer .container .footer-fix p {
+  color: #0a0101;
+  text-align: center;
+  margin: auto;
+  padding: 10px;
+}
+
+.banner {
+  padding-bottom: 500px;
+  margin-top: 30px;
+  text-align: center;
+}
+
+.banner .container .image-result .gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+}
+
+.banner .container .image-result .gallery img {
+  width: 100%;
+  height: auto;
+}
+
+.banner .container .image-result .gallery .desc {
+  padding: 15px;
+  text-align: center;
+}
+/*# sourceMappingURL=mystyle.css.map */

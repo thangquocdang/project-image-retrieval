@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IMAGE RETRIEVAL PROJECT</title>
+    <!-- <link rel="stylesheet" href="static/css/style.css"> -->
+    <link rel="stylesheet" href="/static/css/mystyle.css">
+</head>
+
+<body>
+    <!--CODE HEADER-->
+    <header>
+        <div class="container">
+            <!--logo-->
+            <div class="logo">
+                <a href="#"> <img src="static/images/logoAI.png" alt="logoAI"></a>
+                <p>AI VIETNAM</p>
+            </div>
+            <!--menu-->
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Gallery</a></li>
+                    <li><a href="https://www.facebook.com/Wolf.starkRM/" target="_blank">Contact us</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <!--END CODE HEADER-->
+    <!--CODE BODY-->
+    <div class="name-project">
+        <div class="container">
+            <div class="name">
+                <h1>PROJECT IMAGE RETRIEVAL</h1>
+            </div>
+
+
+        </div>
+    </div>
+    <div class="container">
+        <!--Code upload-->
+        <div class='upload_part'>
+
+            <form action="/" method="POST" enctype="multipart/form-data">
+                <input type="file" name="file" class="upload_button" id="file-picker" />
+                <input type="submit" class="upload_button" value="Query" />
+            </form>
+            <p>Format file image: png, jpg,..</p>
+            <div class="show-image">
+                <img src="{{upload_filename}}"></img>
+            </div>
+        </div>
+        <!--end code upload-->
+    </div>
+    <!--END CODE BODY-->
+    <image src="{{url_for('static',filename = 'images/{}}')}}"></image>
+    <!--Code show ket qua-->
+    <div class="banner">
+        <div class="container">
+
+            <div class="image-result">
+                <div class="gallery">
+                    <!-- <img src="" alt="" width="600" height="400"> -->
+
+
+                    <div class="desc">Add score</div>
+                </div>
+            </div>
+
+
+
+
+
+        </div>
+    </div>
+
+    <!--end code show ket qua-->
+    <!--CODE FOOTER-->
+    <footer>
+        <div class="container">
+            <div class="footer-fix">
+                <p>Thang Quoc Dang</p>
+                <p><a href="mailto:hege@example.com">quocthang1311dut@gmail.com</a></p>
+            </div>
+
+        </div>
+
+
+    </footer>
+    <!--END CODE FOOTER-->
+</body>
+
+
+
+
+</html>
